@@ -1,0 +1,110 @@
+nav{
+    margin: 0;
+}
+
+header,nav,main,footer{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+nav a:hover{
+    opacity: 1;
+}
+
+#headerimg,main,footer{
+    margin: 0;
+}
+
+.item33,.item50,.item25{
+   
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#top{
+    flex-direction: column;
+}
+
+nav{
+    flex-direction: column;
+}
+
+#footer-flex{
+    flex-direction: column;
+    width: 100%;
+}
+
+#footer-flex .item33{
+    text-align: center;
+    margin:0;
+}
+
+footer h2{
+    text-align: center;
+}
+
+nav a{
+    padding: 2%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+#form{
+    width: 90%;
+}
+
+.half{
+    width: 100%;
+}
+
+.form-element{
+    flex-direction: column;
+}
+
+#grid-container{
+    
+    grid-template-columns: 80%;
+    grid-template-rows: 400px auto 400px auto;
+    
+    
+}
+#harshalinfo{
+    
+    grid-row: 2 / 3;
+  
+}
+
+#harshalimg{
+    
+    grid-row: 1 / 2;
+    
+    
+}
+
+#tanmayimg{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+
+
+
+#tanmayinfo{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
+}
+
