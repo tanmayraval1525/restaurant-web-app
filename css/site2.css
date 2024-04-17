@@ -43,6 +43,10 @@ nav{
     align-items: center;
 }
 
+nav a:hover{
+    text-shadow: 2px 2px 5px white;
+}
+
 main{
     display: flex;
     flex-direction: column;
